@@ -11,6 +11,9 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v6
 
+      - name: Show repo files
+        run: pwd
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
